@@ -1,21 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-image: url('../img/Fundo.jpg');
+    background-image: url("../img/Fundo.jpg");
     background-size: 100vw 100vh;
     font-family: arial;
  
 }
 
+@media (min-width: 523px) {
+    body{
+        font-size: 20px;
+    }
+    header{
+        height: 50vh;
+    }
+    .img-portifolio {
+        height: 200px;
+        width: 200px;
+    }
+    a:hover,
+    .menu{
+        border-radius: 10px;
+    } 
+    .logo {  
+        height: 25vh;
+    }   
+}
+@media(min-width: 572px){
+    .menu{
+        margin-top: 1px;
+    }
+    .site-title{
+        margin-top: 300px;
+    }
+}
+@media (max-width:523px) {
+    header{
+        height: 100vh;
+    }
+
+    .img-portifolio {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .logo {  
+        height: 20vh;
+    }    
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .menu {
     background-color: white;
-}
-
-a {
-    color: teal;
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
+    position: fixed;
+    top: 0;
+    box-shadow: 20px 5px 50px 2px black;
 }
 
 .menu ul {
@@ -27,12 +76,32 @@ a:hover{
     list-style: none;
 }
 
+.menu a { 
+    display: block;
+    padding : 10px 60px ;
+}
+.logo {  
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover {
+    background-image: url("../img/fundo-menu.gif");
+    color: white;
+}
+
 .site-subtitle,
 .site-title {
     color: whitesmoke;
     text-align: center;
 }
 
-.site-subtitle{
+.site-subtitle {
+   
     font-style: italic;
 }
+
