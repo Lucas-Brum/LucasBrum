@@ -15,12 +15,9 @@ body {
     body{
         font-size: 20px;
     }
-    header{
-        height: 90vh;
-    }
     .img-portifolio {
-        height: 200px;
-        width: 200px;
+        height: auto;
+        width: 100%;
     }
     a:hover,
     .menu{
@@ -35,17 +32,20 @@ body {
         margin-top: 1px;
     }
     .site-title{
-        margin-top: 300px;
+        margin-top: 150px;
+    }
+}
+@media(min-width: 700px) {
+    .portifolio .grid {
+        grid-template-columns: 275px 325px;
+        justify-content: center;
     }
 }
 @media (max-width:523px) {
-    header{
-        height: 100vh;
-    }
 
     .img-portifolio {
-        height: 100px;
-        width: 100px;
+        height: auto;
+        width: 100%;
     }
     
     .logo {  
@@ -58,6 +58,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .menu {
@@ -79,15 +80,14 @@ header {
 .menu a { 
     display: block;
     padding : 10px 60px ;
+    color: teal;
+    text-decoration: none;
 }
 .logo {  
     justify-content: center;
     align-items: center;
 }
-a {
-    color: teal;
-    text-decoration: none;
-}
+
 
 a:hover {
     background-image: url("../img/fundo-menu.gif");
@@ -100,8 +100,36 @@ a:hover {
     text-align: center;
 }
 
+.site-title
+{
+    font-family: 'Baloo 2', cursive;
+}
+
 .site-subtitle {
-   
+    font-family: 'Baloo 2', cursive;
     font-style: italic;
 }
 
+.portifolio {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    padding: 2em;
+    height: 100vh;
+}
+
+.portifolio h2 {
+    margin-bottom: 2em;
+}
+.portifolio .grid {
+    display: grid;
+    gap: 3em ;
+    align-content: center;
+    height: calc(100vh - 4em - 48px - 1.5em);
+}
+.portifolio a {
+    color: white;
+    text-decoration: none;
+}
+.portifolio figure {
+    text-align: center;
+}
