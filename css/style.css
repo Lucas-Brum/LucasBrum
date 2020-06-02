@@ -12,7 +12,7 @@ body{
 
 /*Configurações responsivas*/
 
-@media( min-width: 992px){
+@media( min-width: 700px){
     .collapse{
         position: fixed;
         right: 20px;
