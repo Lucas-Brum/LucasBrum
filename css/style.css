@@ -143,6 +143,6 @@ footer{
     height: 10vh;
 }
 footer p{
-    height: 10vh;
+    margin-top:50px;
     text-align: center;
 }
