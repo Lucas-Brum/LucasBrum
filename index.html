@@ -1,59 +1,113 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONTES-->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Source+Code+Pro:wght@900&display=swap" rel="stylesheet"> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Permanent+Marker&display=swap" rel="stylesheet">
-    <title>Lucas Brum</title>
+    <!--Credito do background-->
+    <!--<a href="https://br.freepik.com/fotos-vetores-gratis/tecnologia">Tecnologia foto criado por freepik - br.freepik.com</a>-->
+    <title>Document</title>
 </head>
 <body>
-
-    <header>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portifólio</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+    <header id="home">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#home">.CODE</a>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sobre">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portifolio">Portifólio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#contato">Contact</a>
+                </li>
+              </ul>
+            </div>
         </nav>
-
-        <div>
-
-            <h1 class="site-title">Lucas Brum</h1>
-
-            <figure >
-                <img class="logo" src="img/logo.gif" alt="Logotipo">
-            </figure>
-
-            <h2 class="site-subtitle">Jr. Frontend</h2>
-
-            <h2 class="site-subtitle">Web Developer</h2>
-
+        <div class="titulo">
+          <h1>Lucas Brum</h1>
+          <h2>Jr.Frontend</h2>
+          <h2>Web Developer</h2>
         </div>
-
     </header>
-    
-    <section class="portifolio"> 
-        <h2>Portifólio</h2>
 
-        <div class="grid">
-            <a href="http://lucas-brum.github.io/Jogo-da-velha">
-                <figure>
-                    <img class="img-portifolio" src="img/Jogo da velha.png" alt="imagem do site de jogo da velha">
-                    <figcaption>Games</figcaption>
-                </figure>
-            </a>
-            <a href="https://lucas-brum.github.io/Site-da-Shirley/">
-                <figure>
-                    <img class="img-portifolio" src="img/Shirley.png" alt="imagem do site corporativo">
-                    <figcaption>Página corporativa</figcaption>
-                </figure>
-            </a>
-
-        </div>
-        
+    <section id="sobre" class="sobre">
+        <h1>About me:</h1>
+        <p>
+          Sou Lucas Brum entusiasta com tecnologia em geral, estou atualmente desbravando as linguagens de resolução de problemas web HTML, CSS e JavaScript e ficando completamente apaixonado!
+        </p>
+        <p>
+          Gosto de Programar, Jogar jogos Eletrônicos e uso meu youtube como televisão assistindo canais como Filipe Deschamps, Ciência Todo Dia e Programador BR
+        </p>
+        <p>
+          Moro da região metropolitana de Porto alegre e procuro por mais desafios na área de FrontEnd Web
+        </p>
     </section>
 
+    <section id="portifolio" class="portifolio">
+      <h1>Portifólio:</h1>
+      <div class="grid">
+        <a href="http://lucas-brum.github.io/Jogo-da-velha">
+          <figure>
+            <img src="/img/Jogo da velha.png" alt="Game">
+          </figure>
+        </a>
+        <a href="https://lucas-brum.github.io/Site-da-Shirley/">
+          <figure>
+            <img src="/img/shirley.png" alt="Pagina Pessoal">
+          </figure>
+        </a>
+      </div>
+    </section>  
+    
+    <section id="contato" class="contato">
+      <h1>Contato:</h1>
+      <div class="grid">
+        <a href="https://github.com/Lucas-Brum">
+          <figure>
+            <img src="/img/icons/github.png" alt="Github">
+          </figure>
+        </a> 
+        <a href="https://www.linkedin.com/in/lucas-matheus-rodrigues-brum-2a1891b9/">
+          <figure>
+            <img src="/img/icons/linkedin.png" alt="Linkedin">
+          </figure>
+        </a>
+        <a href="http://wa.me/5551991015995">
+          <figure>
+            <img src="/img/icons/whatsapp.png" alt="Whatsapp">
+          </figure>
+        </a>
+        <a href="mailto:lucasmatheusrodriguesbrum@gmail.com?">
+          <figure>
+            <img src="/img/icons/email.png" alt="E-mail">
+          </figure>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &#174; Lucas Brum - Designed and Developed by <a href="https://www.linkedin.com/in/lucas-matheus-rodrigues-brum-2a1891b9/">Lucas Brum</a>
+      </p>
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
