@@ -10,21 +10,6 @@ body{
     background:  linear-gradient(to bottom, rgb(255, 255, 0), rgb(200, 255, 0));
 }   
 
-/*Configurações responsivas*/
-
-@media( min-width: 700px){
-    .collapse{
-        position: fixed;
-        right: 20px;
-    
-    }
-    .portifolio .grid{
-        grid-template-columns: repeat(2, 270px);
-        }
-    .contato .grid{
-        grid-template-columns: repeat(4, 86px);
-        }
-}
 /*CABEÇARIO*/
 header{
     height: 100vh;
@@ -145,4 +130,20 @@ footer{
 footer p{
     margin-top:65px;
     text-align: center;
+}
+
+/*Configurações responsivas*/
+
+@media( min-width: 700px){
+    .collapse{
+        position: fixed;
+        right: 20px;
+    
+    }
+    .portifolio .grid{
+        grid-template-columns: repeat(2, 270px);
+        }
+    .contato .grid{
+        grid-template-columns: repeat(4, 86px);
+        }
 }
