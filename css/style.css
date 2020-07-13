@@ -141,7 +141,7 @@ footer p{
     
     }
     .portifolio .grid{
-        grid-template-columns: repeat(2, 270px);
+        grid-template-columns: repeat(3, 270px);
         }
     .contato .grid{
         grid-template-columns: repeat(4, 86px);
