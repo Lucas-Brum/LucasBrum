@@ -76,7 +76,7 @@ h1{
 .portifolio{
     margin-left: auto;
     margin-right: auto;
-    height: 100vh;
+    height: 130vh;
     max-width: 1200px;
     padding-left: 4em;
     padding-right: 4em;
@@ -139,6 +139,9 @@ footer p{
         position: fixed;
         right: 20px;
     
+    }
+    .portifolio{
+        height: 100vh;
     }
     .portifolio .grid{
         grid-template-columns: repeat(3, 270px);
