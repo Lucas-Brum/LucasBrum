@@ -144,7 +144,8 @@ footer p{
         height: 100vh;
     }
     .portifolio .grid{
-        grid-template-columns: repeat(3, 270px);
+        padding-left: 5em;
+        grid-template-columns: repeat(2, 350px);
         }
     .contato .grid{
         grid-template-columns: repeat(4, 86px);
