@@ -107,7 +107,7 @@ h1{
 
 /*CONTATOS*/
 .contato{
-    height: 100vh;
+    margin-top: 1000px;
     text-align: center;
 }
 .contato h1{
@@ -152,7 +152,7 @@ footer p{
         grid-template-columns: repeat(4, 86px);
         }
 }
-
+/*Update dados */
 .dados {
   display: flex;
   justify-content: center;
