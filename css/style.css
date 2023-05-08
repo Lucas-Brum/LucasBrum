@@ -141,6 +141,7 @@ footer p{
     
     }
     .portifolio{
+        margin-top: 500px;
         height: 100vh;
     }
     .portifolio .grid{
@@ -150,4 +151,29 @@ footer p{
     .contato .grid{
         grid-template-columns: repeat(4, 86px);
         }
+}
+
+.dados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dados, .portifolio  {
+    margin-bottom: 300px;
+}  
+
+img {
+    
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+  
+#dados {
+    padding-top: 200px; /* altura da barra de navegação fixa */
+  }
+  
+#paginas_web {
+    padding-top: 120px; /* altura da barra de navegação fixa */
 }

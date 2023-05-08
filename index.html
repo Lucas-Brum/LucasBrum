@@ -87,10 +87,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#sobre">About me</a>
+                  <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#portifolio">Portifolio</a>
+                  <a class="nav-link " href="#dados">Dados</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#paginas_web">Paginas Web</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="#contato">Contact</a>
@@ -100,25 +103,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </nav>
         <div class="titulo">
           <h1>Lucas Brum</h1>
-          <h2>Programador</h2>
+          <h2>Programador Python | Programador Javascript | Desenvolvedor | Analista de BI | Business Intelligence | Dados | Assistente de Dados | Engenheiro de Dados | Ciencia de Dados</h2>
         </div>
     </header>
 
     <section id="sobre" class="sobre">
-        <h1>About me:</h1>
-        <p>
-          Sou Lucas Brum, me considero um entusiasta da tecnologia em geral. Atualmente trabalho com as linguagens de resolução de problemas web HTML, CSS, JavaScript e Python e ficando completamente apaixonado por isso! ❤️
-        </p>
-        <p>
-          Gosto de programar, de jogos eletrônicos e de usar meu youtube como se fosse uma TV, assistindo canais como Filipe Deschamps, Ciência Todo Dia e Programador BR.
-        </p>
-        <p>
-          Moro da região metropolitana de Porto Alegre e atuo na area de Engenharia de dados :D
-        </p>
+      <h1>Sobre:</h1>
+      <p>
+        Sou um programador experiente em Python e Javascript, 
+        especializado em Business Intelligence e Ciência de Dados. 
+        Minhas habilidades incluem análise de dados, 
+        desenvolvimento de software e engenharia de dados.
+      </p>    
     </section>
 
-    <section id="portifolio" class="portifolio">
-      <h1>Portifolio:</h1>
+
+ 
+
+    <section  class="portifolio">
+      <h1 id="dados">Projetos de dados:</h1>
+      <div class="dados">
+        <a href="https://mega.nz/folder/WVRU2LiK#zdoeSTGdLhgMLZNKynDhSg">
+          <figure>
+            <img src="img/Logo_dados.jpg" alt="Game" class="rounded-image">
+          </figure>
+        </a>
+      </div>
+      <h1 id="paginas_web">Paginas Web:</h1>
       <div class="grid">
         <a href="http://lucas-brum.github.io/Jogo-da-velha">
           <figure>
@@ -141,6 +152,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </figure>
         </a>
       </div>
+
+
+   
 
     </section>  
     
@@ -172,7 +186,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <footer>
       <p>
-        Designed and Developed by <a href="https://www.linkedin.com/in/lucas-matheus-rodrigues-brum-2a1891b9/">Lucas Brum</a>
+        Designed and Developed by <a href="https://www.linkedin.com/in/lucas-rodrigues-brum/">Lucas Brum</a>
       </p>
     </footer>
 
@@ -185,4 +199,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     
 </body>
+<script>
+  // seleciona todos os links da lista de navegação
+  const links = document.querySelectorAll('.nav-link');
+
+  // adiciona um evento de clique a cada um dos links
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      // seleciona o botão de toggle da navegação
+      const toggle = document.querySelector('.navbar-toggler');
+      // verifica se a navegação está aberta
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      // se estiver aberta, fecha a navegação
+      if (isOpen) {
+        toggle.click();
+      }
+    });
+  });
+</script>
+
 </html>

@@ -1,8 +1,12 @@
 # LucasBrum
 
 
-Minha página de apresentação criada apenas com HTML5 e CSS3 puros você pode acessar para ver ela no link : https://lucas-brum.github.io/LucasBrum/ 
+
+### Aqui é onde estão os projetos pessoais de tecnologia que eu mais gostei de fazer:
 
 
-Clica ai para dar uma conferida no meu trabalho ;)
+[![Logo](img/code.png)](https://lucas-brum.github.io/LucasBrum/ )
+
+
+Clica ai para dar uma conferida no meu trabalho 😉
 
