@@ -10,3 +10,6 @@
 
 Clica ai para dar uma conferida no meu trabalho 😉
 
+fontes ornando
+icone code com mais marge
+roda pé de outra cor
