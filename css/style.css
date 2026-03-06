@@ -7,7 +7,7 @@
 
 /* Corpo */
 body {
-    background: linear-gradient(to bottom, rgb(175, 175, 159), rgb(188, 189, 186));
+    background: linear-gradient(to bottom, rgb(175, 175, 159), rgb(51, 51, 51));
 }
 
 /*CABEÇARIO*/
@@ -29,8 +29,14 @@ header {
     box-shadow: 5px 10px 18px #888888;
 }
 
-.navbar-brand {
+.codigo_de_barras {
+    margin-left: 25px;
     font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
 }
 
@@ -52,11 +58,11 @@ header {
 }
 
 h1 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .titulo h2 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
 }
 
@@ -68,7 +74,7 @@ h1 {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #ccc;
+    border: 3px solid #000000;
     margin-top: 40px;
     object-position: center 20%;
 }
@@ -89,7 +95,7 @@ h1 {
 }
 
 .sobre p {
-    margin: 0px 20px;
+    margin: 0px 25px;
     padding: 0px 20px;
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -106,7 +112,10 @@ h1 {
 
 .contato {
     margin-top: 100px;
+    padding: auto;
     text-align: center;
+    background: transparent;
+    color: #bbbbbb;
 }
 
 .contato h1 {
@@ -128,13 +137,12 @@ h1 {
 }
 
 /* RODA PÉ */
-footer {
-    height: 10vh;
-}
 
 footer p {
-    margin-top: 65px;
+    height: 25vh;
+    padding-top: 70px;
     text-align: center;
+    color: #bbbbbb;
 }
 
 /*Configurações responsivas*/
@@ -179,14 +187,4 @@ img {
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
-}
-
-#dados {
-    padding-top: 200px;
-    /* altura da barra de navegação fixa */
-}
-
-#paginas_web {
-    padding-top: 120px;
-    /* altura da barra de navegação fixa */
 }
